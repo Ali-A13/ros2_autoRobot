@@ -8,7 +8,7 @@ def hello_world():
 def main(args=None):
     rclpy.init(args=args)
     node = rclpy.create_node("helloWorld_node")
-    print("HELLO WORLD!!!")
+    print("HELLO WORLD 2.0!!!")
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
