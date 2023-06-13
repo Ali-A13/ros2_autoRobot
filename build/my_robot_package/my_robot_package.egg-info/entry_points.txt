@@ -1,0 +1,3 @@
+[console_scripts]
+hello_world_exe = my_robot_package.hello_world:main
+
