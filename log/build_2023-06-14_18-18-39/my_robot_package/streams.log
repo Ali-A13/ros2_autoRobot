@@ -1,0 +1,37 @@
+[1.782s] Invoking command in '/home/ac/ros2_auto_robot/build/my_robot_package': PYTHONPATH=/home/ac/ros2_auto_robot/build/my_robot_package/prefix_override:/home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ac/ros2_auto_robot/build/my_robot_package/build
+[2.580s] running develop
+[2.582s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.582s]   warnings.warn(
+[2.585s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.585s]   warnings.warn(
+[2.755s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[2.756s]   warnings.warn(
+[2.758s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.758s]   warnings.warn(
+[3.138s] Invoked command in '/home/ac/ros2_auto_robot/build/my_robot_package' returned '0': PYTHONPATH=/home/ac/ros2_auto_robot/build/my_robot_package/prefix_override:/home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ac/ros2_auto_robot/build/my_robot_package/build
+[3.145s] Invoking command in '/home/ac/ros2_auto_robot/src/my_robot_package': PYTHONPATH=/home/ac/ros2_auto_robot/build/my_robot_package/prefix_override:/home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_package build --build-base /home/ac/ros2_auto_robot/build/my_robot_package/build install --record /home/ac/ros2_auto_robot/build/my_robot_package/install.log --single-version-externally-managed
+[3.844s] running egg_info
+[3.847s] writing ../../build/my_robot_package/my_robot_package.egg-info/PKG-INFO
+[3.847s] writing dependency_links to ../../build/my_robot_package/my_robot_package.egg-info/dependency_links.txt
+[3.847s] writing entry points to ../../build/my_robot_package/my_robot_package.egg-info/entry_points.txt
+[3.851s] writing requirements to ../../build/my_robot_package/my_robot_package.egg-info/requires.txt
+[3.851s] writing top-level names to ../../build/my_robot_package/my_robot_package.egg-info/top_level.txt
+[3.852s] reading manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'
+[3.855s] writing manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'
+[3.856s] running build
+[3.856s] running build_py
+[3.857s] copying my_robot_package/obstacle_avoidance.py -> /home/ac/ros2_auto_robot/build/my_robot_package/build/lib/my_robot_package
+[3.859s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.859s]   warnings.warn(
+[3.859s] running install
+[3.859s] running install_lib
+[3.862s] copying /home/ac/ros2_auto_robot/build/my_robot_package/build/lib/my_robot_package/obstacle_avoidance.py -> /home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages/my_robot_package
+[3.866s] byte-compiling /home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages/my_robot_package/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+[3.868s] running install_data
+[3.868s] running install_egg_info
+[3.871s] removing '/home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages/my_robot_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.871s] Copying ../../build/my_robot_package/my_robot_package.egg-info to /home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages/my_robot_package-0.0.0-py3.10.egg-info
+[3.873s] running install_scripts
+[3.930s] Installing hello_world_exe = my_robot_package.hello_world:maincircle_motion = my_robot_package.circle_motion:mainobstacle_avoidance_node script to /home/ac/ros2_auto_robot/install/my_robot_package/lib/my_robot_package
+[3.931s] writing list of installed files to '/home/ac/ros2_auto_robot/build/my_robot_package/install.log'
+[4.004s] Invoked command in '/home/ac/ros2_auto_robot/src/my_robot_package' returned '0': PYTHONPATH=/home/ac/ros2_auto_robot/build/my_robot_package/prefix_override:/home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_package build --build-base /home/ac/ros2_auto_robot/build/my_robot_package/build install --record /home/ac/ros2_auto_robot/build/my_robot_package/install.log --single-version-externally-managed

@@ -1,3 +1,5 @@
 [console_scripts]
+circle_motion = my_robot_package.circle_motion:main
 hello_world_exe = my_robot_package.hello_world:main
+obstacle_avoidance_node = my_robot_package.obstacle_avoidance:main
 
