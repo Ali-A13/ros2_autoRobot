@@ -1,0 +1,24 @@
+[1.680s] Invoking command in '/home/ac/ros2_auto_robot/src/test_package': PYTHONPATH=/home/ac/ros2_auto_robot/build/test_package/prefix_override:/home/ac/ros2_auto_robot/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/ac/ros2_auto_robot/build/test_package/build install --record /home/ac/ros2_auto_robot/build/test_package/install.log --single-version-externally-managed
+[2.267s] running egg_info
+[2.268s] writing ../../build/test_package/test_package.egg-info/PKG-INFO
+[2.268s] writing dependency_links to ../../build/test_package/test_package.egg-info/dependency_links.txt
+[2.269s] writing entry points to ../../build/test_package/test_package.egg-info/entry_points.txt
+[2.269s] writing requirements to ../../build/test_package/test_package.egg-info/requires.txt
+[2.269s] writing top-level names to ../../build/test_package/test_package.egg-info/top_level.txt
+[2.272s] reading manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[2.274s] writing manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[2.275s] running build
+[2.275s] running build_py
+[2.275s] running install
+[2.275s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.276s]   warnings.warn(
+[2.276s] running install_lib
+[2.278s] running install_data
+[2.279s] copying launch/test_sdf_model.launch.py -> /home/ac/ros2_auto_robot/install/test_package/share/test_package
+[2.279s] running install_egg_info
+[2.282s] removing '/home/ac/ros2_auto_robot/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.283s] Copying ../../build/test_package/test_package.egg-info to /home/ac/ros2_auto_robot/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info
+[2.284s] running install_scripts
+[2.335s] Installing circle_motion script to /home/ac/ros2_auto_robot/install/test_package/lib/test_package
+[2.336s] writing list of installed files to '/home/ac/ros2_auto_robot/build/test_package/install.log'
+[2.386s] Invoked command in '/home/ac/ros2_auto_robot/src/test_package' returned '0': PYTHONPATH=/home/ac/ros2_auto_robot/build/test_package/prefix_override:/home/ac/ros2_auto_robot/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/ac/ros2_auto_robot/build/test_package/build install --record /home/ac/ros2_auto_robot/build/test_package/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+circle_motion = test_package.circle_motion:main
+
