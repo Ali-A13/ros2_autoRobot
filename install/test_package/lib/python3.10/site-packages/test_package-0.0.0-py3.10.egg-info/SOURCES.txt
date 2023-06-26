@@ -8,6 +8,7 @@ setup.py
 ../../build/test_package/test_package.egg-info/requires.txt
 ../../build/test_package/test_package.egg-info/top_level.txt
 ../../build/test_package/test_package.egg-info/zip-safe
+launch/spawn_testmodel_2.launch.py
 launch/test_sdf_model.launch.py
 resource/test_package
 test/test_copyright.py

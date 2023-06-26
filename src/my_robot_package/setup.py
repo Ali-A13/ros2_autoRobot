@@ -15,7 +15,8 @@ setup(
         (os.path.join('share', package_name), glob('urdf/*.urdf')),
         (os.path.join('share', package_name), glob('launch/*.py')),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools',
+    'ackermann_steering_controller'],
     zip_safe=True,
     maintainer='ac',
     maintainer_email='ac@todo.todo',
@@ -26,7 +27,8 @@ setup(
         'console_scripts': [
             'hello_world_exe = my_robot_package.hello_world:main',
             'circle_motion = my_robot_package.circle_motion:main',
-            'obstacle_avoidance_node = my_robot_package.obstacle_avoidance:main'
+            'obstacle_avoidance_node = my_robot_package.obstacle_avoidance:main',
+            'ackermann_controller_node = my_robot_package.ackermann_controller_node:main'
         ],
     },
 )

@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000326] (-) JobUnselected: {'identifier': 'test_package'}
+[0.000424] (my_robot_package) JobQueued: {'identifier': 'my_robot_package', 'dependencies': OrderedDict()}
+[0.000620] (my_robot_package) JobStarted: {'identifier': 'my_robot_package'}
+[0.087817] (-) TimerEvent: {}
+[0.188732] (-) TimerEvent: {}
+[0.290038] (-) TimerEvent: {}
+[0.390849] (-) TimerEvent: {}
+[0.491371] (-) TimerEvent: {}
+[0.592005] (-) TimerEvent: {}
+[0.698037] (-) TimerEvent: {}
+[0.798550] (-) TimerEvent: {}
+[0.899365] (-) TimerEvent: {}
+[0.999951] (-) TimerEvent: {}
+[1.100380] (-) TimerEvent: {}
+[1.201229] (-) TimerEvent: {}
+[1.306212] (-) TimerEvent: {}
+[1.406890] (-) TimerEvent: {}
+[1.507380] (-) TimerEvent: {}
+[1.607970] (-) TimerEvent: {}
+[1.708388] (-) TimerEvent: {}
+[1.812350] (-) TimerEvent: {}
+[1.912978] (-) TimerEvent: {}
+[2.013711] (-) TimerEvent: {}
+[2.114308] (-) TimerEvent: {}
+[2.215019] (-) TimerEvent: {}
+[2.318395] (-) TimerEvent: {}
+[2.423361] (-) TimerEvent: {}
+[2.524160] (-) TimerEvent: {}
+[2.625130] (-) TimerEvent: {}
+[2.725530] (-) TimerEvent: {}
+[2.826091] (-) TimerEvent: {}
+[2.926538] (-) TimerEvent: {}
+[3.027000] (-) TimerEvent: {}
+[3.127399] (-) TimerEvent: {}
+[3.227817] (-) TimerEvent: {}
+[3.328696] (-) TimerEvent: {}
+[3.429556] (-) TimerEvent: {}
+[3.533668] (-) TimerEvent: {}
+[3.635234] (-) TimerEvent: {}
+[3.741283] (-) TimerEvent: {}
+[3.842221] (-) TimerEvent: {}
+[3.949259] (-) TimerEvent: {}
+[4.049968] (-) TimerEvent: {}
+[4.150451] (-) TimerEvent: {}
+[4.164447] (my_robot_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ac/ros2_auto_robot/build/my_robot_package/build'], 'cwd': '/home/ac/ros2_auto_robot/build/my_robot_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ac', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ac', 'OLDPWD': '/home/ac', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1689', 'SYSTEMD_EXEC_PID': '1844', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5326', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ac/ros2_auto_robot/install:/home/ac/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ac', 'JOURNAL_STREAM': '8:23447', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'RMW_IMPlEMENTATION': 'rmw_cyclonedds_cpp', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ac', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/ros2_auto_robot/src/test_package/sdf/AC_TestModel_2:/home/ros2_auto_robot/src/test_package/sdf/AC_TestModel_2:/home/ros2_auto_robot/src/test_package/sdf/AC_TestModel_2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ac-VirtualBox:@/tmp/.ICE-unix/1827,unix/ac-VirtualBox:/tmp/.ICE-unix/1827', 'INVOCATION_ID': '3d57c92826dd469da8ec828a145b5d3a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T51161', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ac/ros2_auto_robot/install/test_package:/home/ac/ros2_auto_robot/install/my_robot_package:/home/ac/turtlebot3_ws/install/turtlebot3_simulations:/home/ac/turtlebot3_ws/install/turtlebot3_gazebo:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f6889030-ef35-42bb-8417-0b6cdb326ef7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ac/ros2_auto_robot/build/my_robot_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ac/ros2_auto_robot/build/my_robot_package/prefix_override:/home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages:/home/ac/ros2_auto_robot/install/test_package/lib/python3.10/site-packages:/home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ac/turtlebot3_ws/install/turtlebot3_simulations:/home/ac/turtlebot3_ws/install/turtlebot3_gazebo'}, 'shell': False}
+[4.250627] (-) TimerEvent: {}
+[4.351136] (-) TimerEvent: {}
+[4.451837] (-) TimerEvent: {}
+[4.552645] (-) TimerEvent: {}
+[4.653334] (-) TimerEvent: {}
+[4.754008] (-) TimerEvent: {}
+[4.854578] (-) TimerEvent: {}
+[4.955050] (-) TimerEvent: {}
+[5.055551] (-) TimerEvent: {}
+[5.156425] (-) TimerEvent: {}
+[5.256992] (-) TimerEvent: {}
+[5.358037] (-) TimerEvent: {}
+[5.458426] (-) TimerEvent: {}
+[5.560898] (-) TimerEvent: {}
+[5.661437] (-) TimerEvent: {}
+[5.676790] (my_robot_package) StdoutLine: {'line': b'running develop\n'}
+[5.677205] (my_robot_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.677457] (my_robot_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.697080] (my_robot_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.697659] (my_robot_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.761548] (-) TimerEvent: {}
+[5.862223] (-) TimerEvent: {}
+[5.962652] (-) TimerEvent: {}
+[6.048149] (my_robot_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[6.048827] (my_robot_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.049144] (my_robot_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[6.049441] (my_robot_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.062755] (-) TimerEvent: {}
+[6.163545] (-) TimerEvent: {}
+[6.264793] (-) TimerEvent: {}
+[6.368609] (-) TimerEvent: {}
+[6.470023] (-) TimerEvent: {}
+[6.571398] (-) TimerEvent: {}
+[6.636447] (my_robot_package) CommandEnded: {'returncode': 0}
+[6.638413] (my_robot_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_package', 'build', '--build-base', '/home/ac/ros2_auto_robot/build/my_robot_package/build', 'install', '--record', '/home/ac/ros2_auto_robot/build/my_robot_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/ac/ros2_auto_robot/src/my_robot_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ac', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ac', 'OLDPWD': '/home/ac', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1689', 'SYSTEMD_EXEC_PID': '1844', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5326', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ac/ros2_auto_robot/install:/home/ac/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ac', 'JOURNAL_STREAM': '8:23447', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'RMW_IMPlEMENTATION': 'rmw_cyclonedds_cpp', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ac', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/ros2_auto_robot/src/test_package/sdf/AC_TestModel_2:/home/ros2_auto_robot/src/test_package/sdf/AC_TestModel_2:/home/ros2_auto_robot/src/test_package/sdf/AC_TestModel_2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ac-VirtualBox:@/tmp/.ICE-unix/1827,unix/ac-VirtualBox:/tmp/.ICE-unix/1827', 'INVOCATION_ID': '3d57c92826dd469da8ec828a145b5d3a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T51161', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ac/ros2_auto_robot/install/test_package:/home/ac/ros2_auto_robot/install/my_robot_package:/home/ac/turtlebot3_ws/install/turtlebot3_simulations:/home/ac/turtlebot3_ws/install/turtlebot3_gazebo:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f6889030-ef35-42bb-8417-0b6cdb326ef7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ac/ros2_auto_robot/build/my_robot_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ac/ros2_auto_robot/build/my_robot_package/prefix_override:/home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages:/home/ac/ros2_auto_robot/install/test_package/lib/python3.10/site-packages:/home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ac/turtlebot3_ws/install/turtlebot3_simulations:/home/ac/turtlebot3_ws/install/turtlebot3_gazebo'}, 'shell': False}
+[6.674246] (-) TimerEvent: {}
+[6.776404] (-) TimerEvent: {}
+[6.877257] (-) TimerEvent: {}
+[6.978919] (-) TimerEvent: {}
+[7.079380] (-) TimerEvent: {}
+[7.180023] (-) TimerEvent: {}
+[7.281188] (-) TimerEvent: {}
+[7.385355] (-) TimerEvent: {}
+[7.492662] (-) TimerEvent: {}
+[7.594355] (-) TimerEvent: {}
+[7.695504] (-) TimerEvent: {}
+[7.796063] (-) TimerEvent: {}
+[7.897400] (-) TimerEvent: {}
+[7.997965] (-) TimerEvent: {}
+[8.097211] (my_robot_package) StdoutLine: {'line': b'running egg_info\n'}
+[8.097592] (my_robot_package) StdoutLine: {'line': b'writing ../../build/my_robot_package/my_robot_package.egg-info/PKG-INFO\n'}
+[8.099387] (-) TimerEvent: {}
+[8.104691] (my_robot_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_package/my_robot_package.egg-info/dependency_links.txt\n'}
+[8.116765] (my_robot_package) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_package/my_robot_package.egg-info/entry_points.txt\n'}
+[8.117114] (my_robot_package) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_package/my_robot_package.egg-info/requires.txt\n'}
+[8.117314] (my_robot_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_package/my_robot_package.egg-info/top_level.txt\n'}
+[8.135103] (my_robot_package) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'\n"}
+[8.140466] (my_robot_package) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'\n"}
+[8.144492] (my_robot_package) StdoutLine: {'line': b'running build\n'}
+[8.144867] (my_robot_package) StdoutLine: {'line': b'running build_py\n'}
+[8.146671] (my_robot_package) StdoutLine: {'line': b'running install\n'}
+[8.147186] (my_robot_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.147423] (my_robot_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.151503] (my_robot_package) StdoutLine: {'line': b'running install_lib\n'}
+[8.159961] (my_robot_package) StdoutLine: {'line': b'running install_data\n'}
+[8.161547] (my_robot_package) StdoutLine: {'line': b'copying urdf/dolly.urdf -> /home/ac/ros2_auto_robot/install/my_robot_package/share/my_robot_package\n'}
+[8.164252] (my_robot_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.177922] (my_robot_package) StdoutLine: {'line': b"removing '/home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages/my_robot_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.191473] (my_robot_package) StdoutLine: {'line': b'Copying ../../build/my_robot_package/my_robot_package.egg-info to /home/ac/ros2_auto_robot/install/my_robot_package/lib/python3.10/site-packages/my_robot_package-0.0.0-py3.10.egg-info\n'}
+[8.195708] (my_robot_package) StdoutLine: {'line': b'running install_scripts\n'}
+[8.199514] (-) TimerEvent: {}
+[8.300155] (-) TimerEvent: {}
+[8.329725] (my_robot_package) StdoutLine: {'line': b'Installing circle_motion script to /home/ac/ros2_auto_robot/install/my_robot_package/lib/my_robot_package\n'}
+[8.330256] (my_robot_package) StdoutLine: {'line': b'Installing hello_world_exe script to /home/ac/ros2_auto_robot/install/my_robot_package/lib/my_robot_package\n'}
+[8.336022] (my_robot_package) StdoutLine: {'line': b'Installing obstacle_avoidance_node script to /home/ac/ros2_auto_robot/install/my_robot_package/lib/my_robot_package\n'}
+[8.345668] (my_robot_package) StdoutLine: {'line': b"writing list of installed files to '/home/ac/ros2_auto_robot/build/my_robot_package/install.log'\n"}
+[8.400342] (-) TimerEvent: {}
+[8.426372] (my_robot_package) CommandEnded: {'returncode': 0}
+[8.503296] (-) TimerEvent: {}
+[8.528079] (my_robot_package) JobEnded: {'identifier': 'my_robot_package', 'rc': 0}
+[8.532960] (-) EventReactorShutdown: {}

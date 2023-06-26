@@ -8,8 +8,11 @@ setup.py
 ../../build/my_robot_package/my_robot_package.egg-info/requires.txt
 ../../build/my_robot_package/my_robot_package.egg-info/top_level.txt
 ../../build/my_robot_package/my_robot_package.egg-info/zip-safe
+launch/dolly_ackermann_gazebo.launch.py
 launch/gazebo_bringup.launch.py
+launch/tinykart_gazebo.launch.py
 my_robot_package/__init__.py
+my_robot_package/ackermann_controller_node.py
 my_robot_package/circle_motion.py
 my_robot_package/hello_world.py
 my_robot_package/obstacle_avoidance.py
@@ -17,4 +20,7 @@ resource/my_robot_package
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/ackermann_robot.urdf
 urdf/dolly.urdf
+urdf/dolly_ackermann.urdf
+urdf/tinykart.urdf
